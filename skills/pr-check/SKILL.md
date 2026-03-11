@@ -9,7 +9,12 @@ disable-model-invocation: true
 
 Validate the current branch against the team's Way of Working and Definition of Done.
 
-Run all the following checks and produce a report:
+Run all the following checks and produce a report.
+
+First, ensure remote is up to date:
+```
+git fetch origin main
+```
 
 ## 1. Branch Check
 - Verify current branch is NOT `main` or `develop`
